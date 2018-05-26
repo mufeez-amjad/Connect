@@ -10,211 +10,169 @@
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="52dp"
         android:text="Create a New Profile"
+        android:textColor="#333333"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/tv_name"
-        android:layout_width="78dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Full Name:"
-        app:layout_constraintBottom_toTopOf="@+id/tv_email"
-        app:layout_constraintEnd_toEndOf="@+id/tv_email"
-        app:layout_constraintStart_toEndOf="@+id/tv_email"
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="29dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/profile"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_title" />
-
-    <TextView
-        android:id="@+id/tv_email"
-        android:layout_width="wrap_content"
-        android:layout_height="56dp"
-        android:layout_marginBottom="64dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="63dp"
-        android:text="Email:"
-        app:layout_constraintBottom_toBottomOf="@+id/tv_phone"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/et_name" />
-
-    <TextView
-        android:id="@+id/tv_phone"
-        android:layout_width="wrap_content"
-        android:layout_height="56dp"
-        android:layout_marginBottom="64dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="64dp"
-        android:text="Phone Number:"
-        app:layout_constraintBottom_toBottomOf="@+id/tv_industry"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/et_email" />
-
-    <TextView
-        android:id="@+id/tv_linkedin"
-        android:layout_width="wrap_content"
-        android:layout_height="56dp"
-        android:layout_marginBottom="64dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="64dp"
-        android:text="LinkedIn URL:"
-        app:layout_constraintBottom_toBottomOf="@+id/tv_github"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tv_industry" />
-
-    <TextView
-        android:id="@+id/tv_github"
-        android:layout_width="wrap_content"
-        android:layout_height="56dp"
-        android:layout_marginBottom="64dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="64dp"
-        android:text="GitHub Username:"
-        app:layout_constraintBottom_toBottomOf="@+id/tv_devpost"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/et_linkedin" />
-
-    <TextView
-        android:id="@+id/tv_industry"
-        android:layout_width="wrap_content"
-        android:layout_height="56dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:text="Industry:"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tv_resume"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:text="Attach Resume?"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_devpost" />
-
-    <TextView
-        android:id="@+id/tv_devpost"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:text="DevPost URL:"
-        app:layout_constraintBottom_toTopOf="@+id/et_resume"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/et_devpost" />
 
     <EditText
         android:id="@+id/et_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="36dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintStart_toEndOf="@+id/tv_name"
+        app:layout_constraintStart_toEndOf="@+id/profile"
         app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="29dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_name" />
 
     <EditText
         android:id="@+id/et_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="17dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        app:layout_constraintStart_toEndOf="@+id/tv_email"
+        app:layout_constraintStart_toEndOf="@+id/profile"
         app:layout_constraintTop_toBottomOf="@+id/et_name" />
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="29dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile" />
 
     <EditText
         android:id="@+id/et_phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="phone"
-        app:layout_constraintStart_toEndOf="@+id/tv_phone"
-        app:layout_constraintTop_toTopOf="@+id/tv_phone" />
+        app:layout_constraintStart_toEndOf="@+id/phone"
+        app:layout_constraintTop_toBottomOf="@+id/et_email" />
 
-    <EditText
-        android:id="@+id/et_industry"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintStart_toEndOf="@+id/tv_industry"
-        app:layout_constraintTop_toTopOf="@+id/tv_industry" />
+    <ImageView
+        android:id="@+id/linkedin"
+        android:layout_width="29dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/linkedin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
 
     <EditText
         android:id="@+id/et_linkedin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintStart_toEndOf="@+id/tv_linkedin"
-        app:layout_constraintTop_toBottomOf="@+id/et_industry" />
+        app:layout_constraintStart_toEndOf="@+id/linkedin"
+        app:layout_constraintTop_toBottomOf="@+id/et_phone" />
+
+    <ImageView
+        android:id="@+id/github"
+        android:layout_width="29dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/github"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linkedin" />
 
     <EditText
         android:id="@+id/et_github"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintStart_toEndOf="@+id/tv_github"
+        app:layout_constraintStart_toEndOf="@+id/github"
         app:layout_constraintTop_toBottomOf="@+id/et_linkedin" />
+
+    <ImageView
+        android:id="@+id/devpost"
+        android:layout_width="29dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/devpost"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/github" />
 
     <EditText
         android:id="@+id/et_devpost"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintStart_toEndOf="@+id/tv_devpost"
+        app:layout_constraintStart_toEndOf="@+id/devpost"
         app:layout_constraintTop_toBottomOf="@+id/et_github" />
 
-    <EditText
-        android:id="@+id/et_resume"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="18dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tv_resume" />
 
     <Button
         android:id="@+id/btn_save"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="4dp"
-        android:layout_marginEnd="11dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="11dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="6dp"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginLeft="77dp"
+        android:layout_marginRight="77dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="38dp"
+        android:background="@color/colorPrimary"
         android:text="Save"
-        app:layout_constraintBottom_toTopOf="@+id/et_name"
+        android:textColor="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tv_title"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_devpost" />
 
 </android.support.constraint.ConstraintLayout>

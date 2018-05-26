@@ -76,6 +76,7 @@ public class Login extends AppCompatActivity {
                                     editor.commit();
 
                                     Toast.makeText(Login.this, "Success!", Toast.LENGTH_SHORT).show();
+
                                 } else {
                                     // If sign in fails, display a message to the user.
                                     Toast.makeText(Login.this, "Authentication failed.", Toast.LENGTH_SHORT).show();
@@ -90,6 +91,7 @@ public class Login extends AppCompatActivity {
     }
 
     public void openSignUp(){
+        //Intent intent = new Intent(this, SignUp.class);
         Intent intent = new Intent(this, SignUp.class);
         startActivity(intent);
     }
