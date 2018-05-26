@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "968369766558",
+    "firebase_url": "https://tohacks18.firebaseio.com",
+    "project_id": "tohacks18",
+    "storage_bucket": "tohacks18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968369766558:android:3cc51d14882d6e6f",
+        "android_client_info": {
+          "package_name": "amjad.mufeez.connect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968369766558-3r6snuvb43r29913n57h07dsvsqnfhr2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "amjad.mufeez.connect",
+            "certificate_hash": "6212e48079ce99e72c6bf3e54d929230485be739"
+          }
+        },
+        {
+          "client_id": "968369766558-ekf4dfvjf7srta7jkps6f3fifkgjojio.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "968369766558-ekf4dfvjf7srta7jkps6f3fifkgjojio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJJ_yStaNO-AG6eTxTYNiHLdsvnzelHMs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968369766558-ekf4dfvjf7srta7jkps6f3fifkgjojio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
