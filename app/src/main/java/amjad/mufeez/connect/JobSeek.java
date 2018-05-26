@@ -14,6 +14,5 @@ public class JobSeek extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_job_seek);
         btn_add = (Button) findViewById(R.id.btn_add);
-        btn_apply = (Button) findViewById(R.id.btn_apply);
     }
 }
