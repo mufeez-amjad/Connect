@@ -98,7 +98,7 @@ public class SignUp extends AppCompatActivity {
     }
 
     public void openEmployer(){
-        Intent intent = new Intent(this, RecyclerViewActivity.class);
+        Intent intent = new Intent(this, ProspectList.class);
         startActivity(intent);
 
         overridePendingTransition(R.anim.enter, R.anim.exit);

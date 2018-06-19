@@ -12,9 +12,9 @@
     <ImageView
         android:id="@+id/introImage"
         android:layout_width="match_parent"
-        android:layout_height="450dp"
+        android:layout_height="410dp"
         android:scaleType="fitXY"
-        android:src="@drawable/intro"/>
+        android:src="@drawable/intro" />
 
     <TextView
         android:id="@+id/description"
@@ -37,7 +37,7 @@
         android:id="@+id/arrow"
         android:layout_width="110dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="45dp"
+        android:layout_marginBottom="16dp"
         android:layout_marginEnd="146dp"
         android:layout_marginLeft="146dp"
         android:layout_marginRight="146dp"

@@ -35,11 +35,10 @@
         </activity>
         <activity android:name=".Login" />
         <activity android:name=".SignUp" />
-        <activity android:name=".JobSeek" />
         <activity android:name=".EmployeeInput" />
-        <activity android:name=".RecyclerViewActivity" />
         <activity android:name=".Beam" />
-        <activity android:name=".Receive"></activity>
+        <activity android:name=".Receive" />
+        <activity android:name=".ProspectList"></activity>
     </application>
 
 </manifest>

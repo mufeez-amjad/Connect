@@ -17,6 +17,5 @@ public class JobSeekProfile {
         this.github = github;
         this.industry = industry;
         this.devpost = devpost;
-
     }
 }
